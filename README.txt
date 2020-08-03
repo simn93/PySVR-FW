@@ -1,0 +1,13 @@
+Require:
+    python 3.6
+Dependency:
+    numpy
+    scipy
+    matlab
+        At the MATLAB command prompt:
+            cd (fullfile(matlabroot,'extern','engines','python'))
+            system('python setup.py install')
+    sklearn
+Run:
+    python ./Tests.py
+
