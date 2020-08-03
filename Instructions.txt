@@ -9,5 +9,5 @@ Dependency:
             system('python setup.py install')
     sklearn
 Run:
-    python ./Tests.py
+    python ./src/Tests.py
 
